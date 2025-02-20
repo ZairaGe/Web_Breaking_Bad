@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="IMG/breakingbad/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="breakingbad.css">
+    <title>Formulario</title>
+</head>
+<body class="body2">
+    <h1 class="titulo2">Breaking Bad – Que comience el juego!</h1>
+    <br>
+    <form>
+    <fieldset>
+    <fieldset>    
+        <legend>Datos Personales</legend>
+        Nombre:<input type="text" name="nombre" placeholder="Indica tu nombre" required>
+        <br>Apellidos: <input type="text" name="apellidos" placeholder="Indica tu 1º y 2º apellido" required>
+        <br>Fecha de nacimiento: <input type="date" name="" id="" >
+    </fieldset>
+    <fieldset>
+        <legend>Dirección Postal</legend>
+        Calle: <input type=”text” name=”calle” id="">
+        <br>Numero: <input type="number" name="numero" id="">
+        <br>Piso: <input type="text" name="piso" id="">
+        <br>Código Postal: <input type="number" name="CP" id="">
+        <br>Ciudad: <input type="text" name="ciudad" id="">
+        <br>DNI: <input type="text" name="DNI" id="">
+        <br>Correo Electrónico: <input type="email" name="email" id="" required>
+    </fieldset>   
+    <fieldset> 
+        <legend>Selecciona tú sexo</legend>
+        <input type="checkbox" name="Hombre" checked>Hombre
+        <br><input type="checkbox" name="Mujer">Mujer
+    </fieldset>
+    <fieldset>
+        Cuál de estos personajes es tu favorito:
+        <select name="personajes">
+            <option value="1">Jessie Pinkman</option>
+            <option value="2">Walter White</option>
+            <option value="3">Saul Goodman</option>
+            <option value="4">Gustavo Fring</option>
+            <option value="5">Pollos Hermanos</option>
+            <option value="5">Otros personajes</option>
+        </select>
+        <br><textarea placeholder="Explica por qué es tu favorito" maxlength="120"></textarea></br>
+        <br><input type="submit" value="Guardar">
+        <input type="reset" value="Borrar">
+    </fieldset>
+    <form  name="formulario" action="mailto:raul.rodriguez@proeducaglobal.com" method="post">
+        <br><input type="file" name="adjunto" accept=".pdf" multiple></br>
+        <br><input type="submit" value="Enviar">
+    </form>
+    </fieldset>
+</body>
+</html>
